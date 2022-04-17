@@ -340,8 +340,9 @@
         </g>
       </g>
     </svg>
-
-    <span>{{ title }} app is running!</span>
+    <div class="row">
+      <span>{{ title }} app is running!</span>
+    </div>
 
     <svg id="rocket-smoke" xmlns="http://www.w3.org/2000/svg" width="516.119" height="1083.632" viewBox="0 0 516.119 1083.632">
       <title>Rocket Ship Smoke</title>
@@ -350,6 +351,33 @@
 
   </div>
 
+  <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <!-- Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a routerLink="people-list" class="nav-link" routerLinkActive="active">People List</a>
+      </li>
+<!--      <li class="nav-item">-->
+<!--        <a routerLink="add" class="nav-link" routerLinkActive="active">Add People</a>-->
+<!--      </li>-->
+    </ul>
+  </nav>
+  <div class="container">
+    <br>
+    <h2 style="text-align: center;">{{title}}</h2>
+    <hr>
+    <div class="card">
+      <div class="card-body">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <span>All Rights Reserved 2019 @JavaGuides</span>
+    </div>
+  </footer>
   <!-- Resources -->
   <h2>Resources</h2>
   <p>Here are some links to help you get started:</p>
