@@ -10,7 +10,6 @@ import { CreatePeopleComponent } from './create-people/create-people.component';
 import { PeopleDetailsComponent } from './people-details/people-details.component';
 import { PeopleListComponent } from './people-list/people-list.component';
 import { UpdatePeopleComponent } from './update-people/update-people.component';
-import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -20,7 +19,6 @@ import { LoginComponent } from './login/login.component';
     PeopleDetailsComponent,
     PeopleListComponent,
     UpdatePeopleComponent,
-    LoginComponent
   ],
   imports: [
     BrowserModule,

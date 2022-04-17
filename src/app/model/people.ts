@@ -4,5 +4,5 @@ export class People {
   lastName!: string;
   passWord!: String;
   pNumber!: number;
-  isActived!: boolean;
+  isActived!: number;
 }
